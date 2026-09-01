@@ -1,0 +1,1893 @@
+2026-09-01T18:22:47: PM2 log: ===============================================================================
+2026-09-01T18:22:47: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-09-01T18:22:47: PM2 log: Time                 : Tue Sep 01 2026 18:22:47 GMT+0200 (Eastern European Standard Time)
+2026-09-01T18:22:47: PM2 log: PM2 version          : 7.0.4
+2026-09-01T18:22:47: PM2 log: Node.js version      : 26.4.0
+2026-09-01T18:22:47: PM2 log: Current arch         : arm64
+2026-09-01T18:22:47: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2026-09-01T18:22:47: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2026-09-01T18:22:47: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2026-09-01T18:22:47: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2026-09-01T18:22:47: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2026-09-01T18:22:47: PM2 log: Worker Interval      : 30000
+2026-09-01T18:22:47: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2026-09-01T18:22:47: PM2 log: Concurrent actions   : 2
+2026-09-01T18:22:47: PM2 log: SIGTERM timeout      : 1600
+2026-09-01T18:22:47: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2026-09-01T18:22:47: PM2 log: ===============================================================================
+2026-09-01T18:23:32: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:23:32: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:23:32: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:23:32: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2026-09-01T18:23:32: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2026-09-01T18:23:41: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:23:41: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:23:41: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:23:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:23:53: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:23:53: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:23:53: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:23:56: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:24:04: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:24:04: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:24:04: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:24:16: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:24:16: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:24:16: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:24:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:24:26: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:24:26: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:24:26: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:24:40: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:24:40: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:24:40: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:24:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:24:51: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:24:51: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:24:51: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:25:00: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:25:00: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:25:00: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:25:10: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:25:10: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:25:10: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:25:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:25:18: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:25:18: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:25:18: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:25:28: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:25:28: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:25:28: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:25:38: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:25:38: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:25:38: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:25:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:25:48: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:25:48: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:25:48: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:25:57: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:25:57: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:25:58: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:07: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:26:07: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:26:07: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:16: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:26:16: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:26:16: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:26:26: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:26:26: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:26:26: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:35: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:26:35: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:26:35: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:44: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:26:44: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:26:44: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:26:55: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:26:55: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:26:56: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:56: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:26:56: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:26:56: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:56: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:26:56: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:26:56: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:57: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:26:57: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:26:57: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:26:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:26:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:26:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:26:59: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:26:59: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:26:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:27:01: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:27:08: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:08: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:27:08: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:27:10: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:10: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:27:10: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:27:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:27:19: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:19: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:27:19: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:27:20: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:20: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:27:20: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:27:29: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:29: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:27:29: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:27:30: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:30: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:27:30: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:27:43: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:43: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:43: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:27:43: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:27:43: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:27:43: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:27:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:27:55: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:55: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:27:55: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:27:55: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:27:55: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:27:55: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:28:05: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:05: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:05: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:28:05: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:28:05: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:28:06: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:28:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:15: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:28:15: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:28:15: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:15: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:28:15: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:28:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:28:25: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:25: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:28:25: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:28:26: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:26: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:28:26: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:28:37: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:37: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:28:37: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:28:37: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:37: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:28:37: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:28:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:28:48: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:48: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:28:48: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:28:48: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:28:48: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:28:48: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:29:00: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:00: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:00: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:29:00: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:29:00: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:29:00: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:29:11: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:11: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:29:11: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:29:11: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:11: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:29:11: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:29:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:29:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:29:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:29:23: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:23: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:29:23: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:29:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:29:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:29:34: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:34: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:29:34: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:29:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:29:47: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:47: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:47: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:29:47: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:29:47: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:29:47: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:29:58: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:58: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:29:58: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:29:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:29:58: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:29:58: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:30:12: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:30:12: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:30:12: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:30:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:30:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:30:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:30:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:30:33: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:30:33: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:30:33: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:30:33: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:30:33: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:30:33: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:30:47: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:30:47: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:30:47: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:30:47: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:30:47: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:30:47: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:30:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:31:01: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:31:01: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:31:01: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:31:01: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:31:01: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:31:01: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:31:14: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:31:14: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:31:14: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:31:14: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:31:14: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:31:14: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:31:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:31:25: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:31:25: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:31:25: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:31:26: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:31:26: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:31:26: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:31:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:31:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:31:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:31:29: PM2 log: App [whatsapp-server:2] starting in -fork mode-
+2026-09-01T18:31:29: PM2 log: App [whatsapp-server:2] online
+2026-09-01T18:31:29: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:31:45: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:31:45: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:31:45: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:31:45: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:31:45: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:31:45: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:31:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:31:48: PM2 log: App [whatsapp-server:2] exited with code [1] via signal [SIGINT]
+2026-09-01T18:31:48: PM2 log: App [whatsapp-server:2] starting in -fork mode-
+2026-09-01T18:31:48: PM2 log: App [whatsapp-server:2] online
+2026-09-01T18:32:11: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:32:11: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:32:11: PM2 log: App [whatsapp-server:2] exited with code [1] via signal [SIGINT]
+2026-09-01T18:32:11: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:32:11: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:32:11: PM2 log: App [whatsapp-server:2] starting in -fork mode-
+2026-09-01T18:32:11: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:32:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:32:12: PM2 log: App [whatsapp-server:2] online
+2026-09-01T18:32:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:32:31: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:32:31: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:32:31: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:32:31: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:32:31: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:32:31: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:32:31: PM2 log: App [whatsapp-server:2] exited with code [1] via signal [SIGINT]
+2026-09-01T18:32:31: PM2 log: App [whatsapp-server:2] starting in -fork mode-
+2026-09-01T18:32:31: PM2 log: App [whatsapp-server:2] online
+2026-09-01T18:32:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:32:50: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:32:50: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:32:51: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:32:51: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:32:51: PM2 log: App [whatsapp-server:2] exited with code [1] via signal [SIGINT]
+2026-09-01T18:32:51: PM2 log: App [whatsapp-server:2] starting in -fork mode-
+2026-09-01T18:32:51: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:32:51: PM2 log: App [whatsapp-server:2] online
+2026-09-01T18:32:51: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:32:51: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:32:51: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:33:08: PM2 log: App [whatsapp-server:2] exited with code [1] via signal [SIGINT]
+2026-09-01T18:33:08: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:33:08: PM2 log: App [whatsapp-server:2] starting in -fork mode-
+2026-09-01T18:33:08: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:33:08: PM2 log: App [whatsapp-server:2] online
+2026-09-01T18:33:08: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:33:08: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:33:08: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:33:08: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:33:17: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:33:21: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:33:21: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:33:21: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:33:22: PM2 log: App [whatsapp-server:2] exited with code [1] via signal [SIGINT]
+2026-09-01T18:33:22: PM2 log: App [whatsapp-server:2] starting in -fork mode-
+2026-09-01T18:33:22: PM2 log: App [whatsapp-server:2] online
+2026-09-01T18:33:22: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:33:22: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:33:22: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:33:37: PM2 log: App [whatsapp-server:2] exited with code [1] via signal [SIGINT]
+2026-09-01T18:33:37: PM2 log: App [whatsapp-server:0] exited with code [1] via signal [SIGINT]
+2026-09-01T18:33:37: PM2 log: App [whatsapp-server:2] starting in -fork mode-
+2026-09-01T18:33:37: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:33:37: PM2 log: App [whatsapp-server:2] online
+2026-09-01T18:33:37: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:33:38: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:33:38: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:33:38: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:33:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:34:20: PM2 log: ===============================================================================
+2026-09-01T18:34:20: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-09-01T18:34:20: PM2 log: Time                 : Tue Sep 01 2026 18:34:20 GMT+0200 (Eastern European Standard Time)
+2026-09-01T18:34:20: PM2 log: PM2 version          : 7.0.4
+2026-09-01T18:34:20: PM2 log: Node.js version      : 26.4.0
+2026-09-01T18:34:20: PM2 log: Current arch         : arm64
+2026-09-01T18:34:20: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2026-09-01T18:34:20: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2026-09-01T18:34:20: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2026-09-01T18:34:20: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2026-09-01T18:34:20: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2026-09-01T18:34:20: PM2 log: Worker Interval      : 30000
+2026-09-01T18:34:20: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2026-09-01T18:34:20: PM2 log: Concurrent actions   : 2
+2026-09-01T18:34:20: PM2 log: SIGTERM timeout      : 1600
+2026-09-01T18:34:20: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2026-09-01T18:34:20: PM2 log: ===============================================================================
+2026-09-01T18:34:20: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T18:34:20: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:34:20: PM2 log: App [whatsapp-server:0] online
+2026-09-01T18:34:20: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:34:20: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:34:20: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2026-09-01T18:34:20: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2026-09-01T18:34:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:34:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:34:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:34:44: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:34:44: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:34:44: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:34:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:34:54: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:34:54: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:34:54: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:35:06: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:35:06: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:35:06: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:35:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:35:15: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:35:15: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:35:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:35:24: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:35:24: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:35:24: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:35:36: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:35:36: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:35:36: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:35:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:35:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:35:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:35:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:35:59: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:35:59: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:35:59: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:36:09: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:36:09: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:36:09: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:36:18: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:36:18: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:36:18: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:36:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:36:27: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:36:27: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:36:27: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:36:37: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:36:37: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:36:37: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:36:46: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:36:46: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:36:46: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:36:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:36:55: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:36:55: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:36:55: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:37:04: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:37:04: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:37:04: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:37:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:37:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:37:13: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:37:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:37:22: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:37:22: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:37:22: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:37:30: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:37:30: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:37:30: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:37:40: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:37:40: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:37:40: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:37:48: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:37:48: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:37:48: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:37:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:37:56: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:37:56: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:37:56: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:38:05: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:38:05: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:38:05: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:38:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:38:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:38:13: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:38:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:38:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:38:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:38:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:38:29: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:38:29: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:38:29: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:38:38: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:38:38: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:38:38: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:38:46: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:38:46: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:38:46: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:38:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:38:54: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:38:54: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:38:54: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:39:02: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:39:02: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:39:02: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:39:10: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:39:10: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:39:10: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:39:19: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:39:19: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:39:19: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:39:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:39:27: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:39:27: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:39:27: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:39:35: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:39:35: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:39:35: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:39:44: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:39:44: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:39:44: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:39:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:39:53: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:39:53: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:39:53: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:40:02: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:40:02: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:40:02: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:40:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:40:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:40:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:40:20: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:40:20: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:40:20: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:40:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:40:29: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:40:29: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:40:29: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:40:38: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:40:38: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:40:38: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:40:47: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:40:47: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:40:47: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:40:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:40:55: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:40:55: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:40:55: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:41:04: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:41:04: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:41:04: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:41:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:41:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:41:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:41:20: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:41:20: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:41:20: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:41:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:41:28: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:41:28: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:41:28: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:41:37: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:41:37: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:41:37: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:41:45: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:41:45: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:41:45: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:41:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:41:53: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:41:53: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:41:53: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:42:01: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:42:01: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:42:01: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:42:09: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:42:09: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:42:09: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:42:18: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:42:18: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:42:18: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:42:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:42:26: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:42:26: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:42:26: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:42:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:42:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:42:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:42:43: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:42:43: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:42:43: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:42:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:42:51: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:42:51: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:42:51: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:43:00: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:43:00: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:43:00: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:43:08: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:43:08: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:43:08: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:43:16: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:43:16: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:43:16: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:43:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:43:24: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:43:24: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:43:24: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:43:33: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:43:33: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:43:33: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:43:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:43:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:43:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:43:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:43:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:43:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:43:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:43:57: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:43:57: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:43:57: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:44:05: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:44:05: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:44:05: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:44:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:44:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:44:14: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:44:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:44:22: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:44:22: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:44:22: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:44:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:44:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:44:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:44:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:44:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:44:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:44:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:44:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:44:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:44:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:45:01: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:45:01: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:45:01: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:45:09: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:45:09: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:45:09: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:45:19: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:45:19: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:45:19: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:45:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:45:28: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:45:28: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:45:29: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:45:38: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:45:38: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:45:38: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:45:47: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:45:47: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:45:47: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:45:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:45:56: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:45:56: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:45:56: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:46:04: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:46:04: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:46:04: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:46:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:46:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:46:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:46:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:46:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:46:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:46:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:46:29: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:46:29: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:46:29: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:46:37: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:46:37: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:46:37: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:46:45: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:46:45: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:46:45: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:46:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:46:53: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:46:53: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:46:53: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:47:01: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:47:01: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:47:01: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:47:09: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:47:09: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:47:09: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:47:18: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:47:18: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:47:18: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:47:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:47:26: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:47:26: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:47:26: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:47:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:47:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:47:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:47:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:47:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:47:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:47:50: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:47:50: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:47:51: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:47:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:47:59: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:47:59: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:47:59: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:48:07: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:48:07: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:48:07: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:48:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:48:15: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:48:15: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:48:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:48:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:48:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:48:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:48:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:48:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:48:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:48:40: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:48:40: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:48:40: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:48:48: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:48:48: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:48:48: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:48:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:49:01: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:49:01: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:49:01: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:49:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:49:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:49:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:49:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:49:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:49:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:49:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:49:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:49:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:49:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:49:43: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:49:43: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:49:43: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:49:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:49:54: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:49:54: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:49:54: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:50:02: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:50:02: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:50:02: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:50:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:50:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:50:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:50:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:50:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:50:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:50:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:50:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:50:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:50:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:50:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:50:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:50:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:50:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:50:53: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:50:53: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:50:53: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:51:04: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:51:04: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:51:04: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:51:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:51:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:51:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:51:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:51:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:51:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:51:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:51:30: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:51:30: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:51:30: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:51:39: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:51:39: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:51:39: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:51:48: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:51:48: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:51:48: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:51:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:51:57: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:51:57: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:51:57: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:52:08: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:52:08: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:52:08: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:52:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:52:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:52:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:52:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:52:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:52:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:52:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:52:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:52:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:52:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:52:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:52:51: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:52:51: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:52:51: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:53:00: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:53:00: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:53:00: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:53:08: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:53:08: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:53:08: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:53:17: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:53:17: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:53:17: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:53:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:53:26: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:53:26: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:53:26: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:53:35: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:53:35: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:53:35: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:53:43: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:53:43: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:53:43: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:53:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:53:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:53:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:53:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:54:01: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:54:01: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:54:01: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:54:10: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:54:10: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:54:10: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:54:19: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:54:19: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:54:19: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:54:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:54:29: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:54:29: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:54:29: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:54:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:54:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:54:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:54:50: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:54:50: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:54:50: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:54:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:54:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:54:58: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:54:58: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:55:07: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:55:07: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:55:07: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:55:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:55:15: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:55:15: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:55:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:55:24: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:55:24: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:55:24: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:55:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:55:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:55:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:55:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:55:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:55:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:55:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:55:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:55:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:55:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:55:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:55:58: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:55:58: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:56:07: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:56:07: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:56:07: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:56:16: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:56:16: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:56:16: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:56:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:56:25: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:56:25: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:56:25: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:56:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:56:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:56:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:56:43: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:56:43: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:56:43: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:56:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:56:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:56:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:56:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:57:00: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:57:00: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:57:00: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:57:09: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:57:09: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:57:09: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:57:18: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:57:18: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:57:18: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:57:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:57:27: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:57:27: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:57:27: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:57:37: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:57:37: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:57:37: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:57:47: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:57:47: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:57:47: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:57:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:57:56: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:57:56: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:57:56: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:58:05: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:58:05: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:58:05: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:58:14: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:58:14: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:58:14: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:58:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:58:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:58:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:58:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:58:31: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:58:31: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:58:31: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:58:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:58:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:58:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:58:50: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:58:50: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:58:50: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:58:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:58:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:58:58: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:58:58: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:59:08: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:59:08: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:59:08: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:59:18: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:59:18: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:59:18: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:59:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:59:26: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:59:26: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:59:26: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:59:35: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:59:35: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:59:35: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:59:43: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:59:43: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:59:43: PM2 log: App [whatsapp-server:1] online
+2026-09-01T18:59:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T18:59:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T18:59:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T18:59:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:00:00: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:00:00: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:00:00: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:00:09: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:00:09: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:00:09: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:00:17: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:00:17: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:00:17: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:00:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:00:25: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:00:25: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:00:25: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:00:33: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:00:33: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:00:33: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:00:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:00:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:00:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:00:50: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:00:50: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:00:50: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:00:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:00:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:00:58: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:00:59: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:01:07: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:01:07: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:01:07: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:01:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:01:15: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:01:15: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:01:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:01:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:01:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:01:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:01:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:01:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:01:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:01:43: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:01:43: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:01:43: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:01:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:01:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:01:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:01:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:02:01: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:02:01: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:02:01: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:02:10: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:02:10: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:02:10: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:02:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:02:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:02:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:02:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:02:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:02:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:02:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:02:43: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:02:43: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:02:43: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:02:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:02:54: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:02:54: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:02:54: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:03:03: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:03:03: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:03:03: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:03:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:03:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:03:13: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:03:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:03:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:03:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:03:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:03:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:03:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:03:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:03:46: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:03:46: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:03:46: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:03:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:03:56: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:03:56: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:03:56: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:04:06: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:04:06: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:04:06: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:04:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:04:15: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:04:15: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:04:21: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:04:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:04:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:04:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:04:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:04:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:04:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:04:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:04:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:04:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:04:52: PM2 log: ===============================================================================
+2026-09-01T19:04:52: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-09-01T19:04:52: PM2 log: Time                 : Tue Sep 01 2026 19:04:52 GMT+0200 (Eastern European Standard Time)
+2026-09-01T19:04:52: PM2 log: PM2 version          : 7.0.4
+2026-09-01T19:04:52: PM2 log: Node.js version      : 26.4.0
+2026-09-01T19:04:52: PM2 log: Current arch         : arm64
+2026-09-01T19:04:52: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2026-09-01T19:04:52: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2026-09-01T19:04:52: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2026-09-01T19:04:52: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2026-09-01T19:04:52: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2026-09-01T19:04:52: PM2 log: Worker Interval      : 30000
+2026-09-01T19:04:52: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2026-09-01T19:04:52: PM2 log: Concurrent actions   : 2
+2026-09-01T19:04:52: PM2 log: SIGTERM timeout      : 1600
+2026-09-01T19:04:52: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2026-09-01T19:04:52: PM2 log: ===============================================================================
+2026-09-01T19:04:52: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T19:04:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:04:52: PM2 log: App [whatsapp-server:0] online
+2026-09-01T19:04:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:04:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:04:52: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2026-09-01T19:04:52: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2026-09-01T19:05:04: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:05:04: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:05:04: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:05:16: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:05:17: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:05:17: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:05:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:05:29: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:05:29: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:05:30: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:05:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:05:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:05:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:05:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:05:56: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:05:56: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:05:56: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:06:06: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:06:06: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:06:06: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:06:16: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:06:16: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:06:16: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:06:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:06:25: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:06:25: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:06:25: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:06:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:06:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:06:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:06:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:06:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:06:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:06:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:07:03: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:07:03: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:07:03: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:07:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:07:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:07:13: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:07:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:07:24: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:07:24: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:07:24: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:07:33: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:07:33: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:07:33: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:07:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:07:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:07:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:07:50: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:07:50: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:07:50: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:07:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:08:02: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:08:02: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:08:02: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:08:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:08:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:08:14: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:08:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:08:25: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:08:25: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:08:25: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:08:35: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:08:35: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:08:35: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:08:45: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:08:45: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:08:45: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:08:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:08:57: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:08:57: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:08:57: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:09:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:09:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:09:13: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:09:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:09:24: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:09:24: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:09:24: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:09:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:09:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:09:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:09:45: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:09:45: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:09:45: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:09:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:09:55: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:09:55: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:09:55: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:10:05: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:10:05: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:10:05: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:10:14: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:10:14: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:10:14: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:10:22: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:10:22: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:10:22: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:10:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:10:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:10:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:10:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:10:40: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:10:40: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:10:40: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:10:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:10:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:10:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:10:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:10:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:10:58: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:10:58: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:11:06: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:11:06: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:11:06: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:11:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:11:15: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:11:15: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:11:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:11:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:11:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:11:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:11:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:11:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:11:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:11:40: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:11:40: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:11:40: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:11:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:11:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:11:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:11:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:11:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:11:58: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:11:58: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:12:06: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:12:06: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:12:06: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:12:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:12:15: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:12:15: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:12:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:12:24: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:12:24: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:12:24: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:12:33: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:12:33: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:12:33: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:12:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:12:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:12:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:12:51: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:12:51: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:12:51: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:12:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:12:59: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:12:59: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:12:59: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:13:07: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:13:07: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:13:07: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:13:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:13:16: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:13:16: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:13:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:13:24: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:13:24: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:13:24: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:13:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:13:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:13:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:13:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:13:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:13:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:13:50: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:13:50: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:13:50: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:13:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:13:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:13:58: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:13:58: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:14:09: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:14:09: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:14:09: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:14:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:14:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:14:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:14:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:14:33: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:14:33: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:14:33: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:14:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:14:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:14:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:14:50: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:14:50: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:14:50: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:14:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:15:00: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:15:00: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:15:00: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:15:16: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:15:16: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:15:16: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:15:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:15:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:15:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:15:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:15:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:15:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:15:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:15:50: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:15:50: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:15:50: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:15:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:15:59: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:15:59: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:15:59: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:16:08: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:16:08: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:16:08: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:16:18: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:16:18: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:16:18: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:16:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:16:29: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:16:29: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:16:29: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:16:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:16:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:16:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:16:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:16:54: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:16:54: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:16:54: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:17:07: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:17:07: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:17:07: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:17:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:17:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:17:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:17:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:17:34: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:17:34: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:17:34: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:17:45: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:17:45: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:17:45: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:17:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:17:56: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:17:56: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:17:56: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:18:05: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:18:05: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:18:05: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:18:14: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:18:14: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:18:14: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:18:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:18:23: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:18:23: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:18:23: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:18:31: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:18:31: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:18:31: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:18:40: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:18:40: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:18:40: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:18:46: PM2 log: ===============================================================================
+2026-09-01T19:18:46: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-09-01T19:18:46: PM2 log: Time                 : Tue Sep 01 2026 19:18:46 GMT+0200 (Eastern European Standard Time)
+2026-09-01T19:18:46: PM2 log: PM2 version          : 7.0.4
+2026-09-01T19:18:46: PM2 log: Node.js version      : 26.4.0
+2026-09-01T19:18:46: PM2 log: Current arch         : arm64
+2026-09-01T19:18:46: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2026-09-01T19:18:46: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2026-09-01T19:18:46: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2026-09-01T19:18:46: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2026-09-01T19:18:46: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2026-09-01T19:18:46: PM2 log: Worker Interval      : 30000
+2026-09-01T19:18:46: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2026-09-01T19:18:46: PM2 log: Concurrent actions   : 2
+2026-09-01T19:18:46: PM2 log: SIGTERM timeout      : 1600
+2026-09-01T19:18:46: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2026-09-01T19:18:46: PM2 log: ===============================================================================
+2026-09-01T19:18:46: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T19:18:46: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:18:46: PM2 log: App [whatsapp-server:0] online
+2026-09-01T19:18:46: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:18:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:18:46: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2026-09-01T19:18:46: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2026-09-01T19:18:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:18:59: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:18:59: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:19:09: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:19:09: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:19:09: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:19:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:19:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:19:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:19:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:19:32: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:19:32: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:19:32: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:19:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:19:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:19:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:19:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:19:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:19:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:19:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:19:59: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:19:59: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:19:59: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:20:09: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:20:09: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:20:09: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:20:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:20:20: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:20:20: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:20:20: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:20:30: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:20:30: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:20:30: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:20:39: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:20:39: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:20:39: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:20:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:20:51: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:20:51: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:20:51: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:21:00: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:21:00: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:21:00: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:21:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:21:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:21:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:21:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:21:20: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:21:20: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:21:20: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:21:33: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:21:33: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:21:33: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:21:42: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:21:42: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:21:42: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:21:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:21:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:21:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:21:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:22:02: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:22:02: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:22:02: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:22:15: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:22:15: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:22:15: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:22:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:22:25: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:22:25: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:22:25: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:22:36: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:22:36: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:22:36: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:22:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:22:47: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:22:47: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:22:47: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:22:59: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:22:59: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:22:59: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:23:08: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:23:08: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:23:08: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:23:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:23:18: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:23:18: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:23:18: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:23:28: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:23:28: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:23:28: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:23:38: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:23:38: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:23:38: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:23:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:23:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:23:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:23:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:24:00: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:24:00: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:24:00: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:24:10: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:24:10: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:24:10: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:24:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:24:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:24:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:24:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:24:31: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:24:31: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:24:31: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:24:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:24:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:24:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:24:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:24:51: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:24:51: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:24:51: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:25:01: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:25:01: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:25:01: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:25:10: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:25:10: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:25:10: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:25:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:25:19: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:25:19: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:25:19: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:25:28: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:25:28: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:25:28: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:25:37: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:25:37: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:25:37: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:25:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:25:50: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:25:50: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:25:50: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:26:05: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:26:05: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:26:05: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:26:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:26:18: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:26:18: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:26:18: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:26:30: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:26:30: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:26:30: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:26:40: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:26:40: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:26:40: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:26:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:26:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:26:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:26:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:26:57: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:26:57: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:26:57: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:27:06: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:27:06: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:27:06: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:27:14: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:27:14: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:27:14: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:27:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:27:22: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:27:22: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:27:22: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:27:31: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:27:31: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:27:31: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:27:39: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:27:39: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:27:39: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:27:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:27:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:27:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:27:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:28:06: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:28:06: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:28:06: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:28:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:28:17: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:28:17: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:28:17: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:28:27: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:28:27: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:28:27: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:28:37: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:28:37: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:28:37: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:28:46: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:28:46: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:28:46: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:28:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:28:55: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:28:55: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:28:56: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:29:07: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:29:07: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:29:07: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:29:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:29:17: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:29:17: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:29:17: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:29:29: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:29:29: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:29:29: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:29:38: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:29:38: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:29:38: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:29:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:29:48: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:29:48: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:29:48: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:29:57: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:29:57: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:29:57: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:30:05: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:30:05: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:30:05: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:30:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:30:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:30:13: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:30:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:30:22: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:30:22: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:30:22: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:30:31: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:30:31: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:30:31: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:30:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:30:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:30:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:30:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:30:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:30:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:30:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:31:03: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:31:03: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:31:03: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:31:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:31:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:31:13: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:31:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:31:22: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:31:22: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:31:22: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:31:31: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:31:31: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:31:31: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:31:39: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:31:39: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:31:39: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:31:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:31:49: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:31:49: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:31:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:32:03: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:32:03: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:32:03: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:32:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:32:19: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:32:19: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:32:19: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:32:30: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:32:30: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:32:30: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:32:39: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:32:39: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:32:39: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:32:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:32:48: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:32:48: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:32:49: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:32:58: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:32:58: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:32:58: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:33:07: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:33:07: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:33:07: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:33:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:33:17: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:33:17: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:33:17: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:33:26: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:33:26: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:33:26: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:33:35: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:33:35: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:33:35: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:33:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:33:48: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:33:48: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:33:48: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:34:02: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:34:02: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:34:02: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:34:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:34:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:34:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:34:16: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:34:21: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:34:21: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:34:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:34:29: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:34:29: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:34:29: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:34:39: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:34:39: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:34:40: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:34:46: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:38:27: PM2 log: ===============================================================================
+2026-09-01T19:38:27: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-09-01T19:38:27: PM2 log: Time                 : Tue Sep 01 2026 19:38:27 GMT+0200 (Eastern European Standard Time)
+2026-09-01T19:38:27: PM2 log: PM2 version          : 7.0.4
+2026-09-01T19:38:27: PM2 log: Node.js version      : 26.4.0
+2026-09-01T19:38:27: PM2 log: Current arch         : arm64
+2026-09-01T19:38:27: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2026-09-01T19:38:27: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2026-09-01T19:38:27: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2026-09-01T19:38:27: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2026-09-01T19:38:27: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2026-09-01T19:38:27: PM2 log: Worker Interval      : 30000
+2026-09-01T19:38:27: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2026-09-01T19:38:27: PM2 log: Concurrent actions   : 2
+2026-09-01T19:38:27: PM2 log: SIGTERM timeout      : 1600
+2026-09-01T19:38:27: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2026-09-01T19:38:27: PM2 log: ===============================================================================
+2026-09-01T19:38:27: PM2 log: App [whatsapp-server:0] starting in -fork mode-
+2026-09-01T19:38:27: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:38:27: PM2 log: App [whatsapp-server:0] online
+2026-09-01T19:38:27: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:38:27: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:38:27: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2026-09-01T19:38:27: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:509:20)
+    at ChildProcess.emit (node:domain:536:15)
+    at maybeClose (node:internal/child_process:1125:16)
+    at Socket.<anonymous> (node:internal/child_process:497:11)
+    at Socket.emit (node:events:509:20)
+    at Socket.emit (node:domain:536:15)
+    at Pipe.<anonymous> (node:net:355:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2026-09-01T19:38:40: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:38:40: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:38:40: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:38:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:38:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:38:52: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:38:57: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:39:03: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:39:03: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:39:03: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:39:12: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:39:12: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:39:12: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:39:20: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:39:20: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:39:21: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:39:27: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:39:29: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:39:29: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:39:29: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:39:41: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:39:41: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:39:41: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:39:52: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:39:52: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:39:53: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:39:57: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:40:02: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:40:02: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:40:02: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:40:11: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:40:11: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:40:11: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:40:19: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:40:19: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:40:19: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:40:27: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:40:28: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:40:28: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:40:28: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:40:38: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:40:38: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:40:38: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:40:48: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:40:48: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:40:48: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:40:57: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:41:00: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:41:00: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:41:00: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:41:13: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:41:13: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:41:13: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:41:24: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:41:24: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:41:24: PM2 log: App [whatsapp-server:1] online
+2026-09-01T19:41:27: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-09-01T19:41:35: PM2 log: App [whatsapp-server:1] exited with code [1] via signal [SIGINT]
+2026-09-01T19:41:35: PM2 log: App [whatsapp-server:1] starting in -fork mode-
+2026-09-01T19:41:35: PM2 log: App [whatsapp-server:1] online
